@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://planenalp.github.io/klein.blue</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://planenalp.github.io/klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 16:20:07 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>About</title><link>https://planenalp.github.io/klein.blue/post/About.html</link><description>很喜欢蓝色，机缘巧合下搞到了这个域名，真好~
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 16:24:46 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>About</title><link>https://klein.blue/about.html</link><description>很喜欢蓝色，机缘巧合下搞到了这个域名，真好~
 
 每次打开主页看到配色都会心情舒畅
 
 嘿嘿
 
-Email: intl@klein.blue。</description><guid isPermaLink="true">https://planenalp.github.io/klein.blue/post/About.html</guid><pubDate>Thu, 27 Feb 2025 16:19:30 +0000</pubDate></item></channel></rss>
+Email: intl@klein.</description><guid isPermaLink="true">https://klein.blue/about.html</guid><pubDate>Thu, 27 Feb 2025 16:19:30 +0000</pubDate></item></channel></rss>

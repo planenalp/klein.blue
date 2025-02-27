@@ -1,6 +1,6 @@
-# Blog Title :link: https://planenalp.github.io/klein.blue 
-### :page_facing_up: [1](https://planenalp.github.io/klein.blue/tag.html) 
+# Klein.Blue :link: https://klein.blue 
+### :page_facing_up: [0](https://klein.blue/tag.html) 
 ### :speech_balloon: 0 
-### :hibiscus: 68 
-### :alarm_clock: 2025-02-28 00:20:07 
+### :hibiscus: 0 
+### :alarm_clock: 2025-02-28 00:24:46 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
