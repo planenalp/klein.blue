@@ -1,16 +1,4 @@
 
-
-/* 背景图片 */
-html {
-    background: url('https://klein.blue/bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
-/* 主体颜色 */
-body {
-    background: rgba(0, 47, 167, 0.8); 
-}
-
 /* header布局*/
 #header {
     height: 300px;
@@ -28,5 +16,8 @@ body {
     width: 200px;
     height: 200px;
 }
-        
-   
+
+/* 主体颜色 */
+body {
+    background: rgba(0, 47, 167, 0.8); 
+}
