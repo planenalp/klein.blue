@@ -1,10 +1,4 @@
 
-/* avatar尺寸 */
-.avatar {
-    width: 150px;
-    height: 150px;
-}
-
 /* header布局 */
 #header {
     height: 220px;
@@ -18,10 +12,16 @@
     flex-direction: column;
     align-items: center;
 
+/* avatar尺寸 */
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
 #header h1 a {
     margin-top: 5px;
 }
-    
+
 /* 主体颜色 */
 body {
     background: #002FA7;
