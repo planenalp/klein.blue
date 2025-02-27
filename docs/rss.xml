@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 16:39:12 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>薛定谔的NAS</title><link>https://klein.blue/post/4.html</link><description>&lt;!-- ##{'timestamp':1680252720}## --&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 16:41:02 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>本来挺喜欢做LOGO的</title><link>https://klein.blue/post/5.html</link><description>&lt;!-- ##{'timestamp':1680303840}## --&gt;
+
+现在更喜欢了
+
+最近两天不是一直在研究两个网站的 LOGO，想着把刚学到的经验分享出来水个教程，顺便整点活，于是想到用 iKun 作为题材感觉应该不错，就尝试弄了下
+
+但是做完之后竟然感觉有点帅气？这是什么情况！？？？
+
+from
+![Image](https://github.</description><guid isPermaLink="true">https://klein.blue/post/5.html</guid><pubDate>Fri, 31 Mar 2023 23:04:00 +0000</pubDate></item><item><title>薛定谔的NAS</title><link>https://klein.blue/post/4.html</link><description>&lt;!-- ##{'timestamp':1680252720}## --&gt;
 
 # 突如其来的罢工
 自从组建好以来，一向兢兢业业运行良好的第一台 UNRAID NAS，昨晚睡觉前改 LOGO 的时候还正常用着，结果今天中午起床准备吃饭前玩了下电脑发现，我的映射盘怎么全部显示断连了？？？此时 NAS 后台登录网页也完全打不开
