@@ -1,7 +1,7 @@
 
 /* header布局*/
 #header {
-    height: 300px;
+    height: 250px;
 }
 
 #header h1 {
@@ -13,10 +13,14 @@
     align-items: center;
 
 .avatar {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
+.title-right {
+    margin: 0 0 0 0;
+}
+    
 /* 主体颜色 */
 body {
     background: rgba(0, 47, 167, 0.8); 
