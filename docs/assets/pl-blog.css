@@ -18,10 +18,13 @@
 }
 
 .title-right {
-    margin: 0 0 0 0;
+    margin: unset;
+    margin-top: 295px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
     
 /* 主体颜色 */
 body {
-    background: rgba(0, 47, 167, 0.8); 
+    background: rgba(000, 047, 167, 0.8);
 }
