@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 17:08:08 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 17:11:01 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
 
 去年忘记什么时候突然访问不了了
 
@@ -27,13 +27,7 @@
 
 最近在花大量时间研究 DeepFaceLab，起因是有一天在 YouTube 上闲逛无意中看到一个 Roop Unleashed 的换脸教程，感叹现在技术这么进步了，感觉学着下载玩了下，然后发现效果太垃圾了。。。搜了下大家的说法，王者依然是 DeepFaceLab，即使已经很久没更新，这么好的开源软件断更太可惜了，其实早就知道 DeepFaceLab 的原理，最开始想做视频也是因为近期 AI 发展在视频和音频上都已经达到了可用的级别想趁机留点自己的数据，只是一直都知道很麻烦，现在莫名其妙提前踩进坑里来了。。只是麻烦程度比想象中的还要大10倍，太坑了
 
-耗时、耗电、耗精力，还不一定搞得好，需要长时间试错，跟最开始研究 FDM 的 3D 打印机差不多，甚至还要更麻烦，一开始切脸走了歪路就已经浪费了一两周，都差点想弃坑了，不是一般的难.</description><guid isPermaLink="true">https://klein.blue/post/10.html</guid><pubDate>Sat, 04 May 2024 05:20:00 +0000</pubDate></item><item><title>意外之财</title><link>https://klein.blue/post/8.html</link><description>&lt;!-- ##{'timestamp':1682263800}## --&gt;
-
-今天把之前装修拆出来的铝合金门框、废铁门和存了两三年的大部分纸箱卖掉
-
-竟然收获了1398元！！！WOW！
-
-![Image](https://github.</description><guid isPermaLink="true">https://klein.blue/post/8.html</guid><pubDate>Sun, 23 Apr 2023 15:30:00 +0000</pubDate></item><item><title>新手做视频的迷茫</title><link>https://klein.blue/post/9.html</link><description>&lt;!-- ##{'timestamp':1680969660}## --&gt;
+耗时、耗电、耗精力，还不一定搞得好，需要长时间试错，跟最开始研究 FDM 的 3D 打印机差不多，甚至还要更麻烦，一开始切脸走了歪路就已经浪费了一两周，都差点想弃坑了，不是一般的难.</description><guid isPermaLink="true">https://klein.blue/post/10.html</guid><pubDate>Sat, 04 May 2024 05:20:00 +0000</pubDate></item><item><title>新手做视频的迷茫</title><link>https://klein.blue/post/9.html</link><description>&lt;!-- ##{'timestamp':1680969660}## --&gt;
 
 这几天一直在准备把自己折腾的 PS + AI 做 logo 的办法做成视频教程，开始了才发现准备一期视频真不容易，要简单易懂同时详略得当，不能啰嗦，还要适当想一些梗防止过于硬核枯燥
 
@@ -43,7 +37,13 @@
 
 现在这个新视频，想要没差错还必须提前重复好几次来边做边优化流程，不过这样也变相让我对这些知识点有更深了解，也更熟练了，果然学习金字塔说得没错，想学会一样东西的话，直接做到可教人的程度才是吸收得最好的形式
 
-![Image](https://github.</description><guid isPermaLink="true">https://klein.blue/post/9.html</guid><pubDate>Sat, 08 Apr 2023 16:01:00 +0000</pubDate></item><item><title>干冰迟钝结冰人</title><link>https://klein.blue/post/7.html</link><description>&lt;!-- ##{'timestamp':1680432600}## --&gt;
+![Image](https://github.</description><guid isPermaLink="true">https://klein.blue/post/9.html</guid><pubDate>Sat, 08 Apr 2023 16:01:00 +0000</pubDate></item><item><title>意外之财</title><link>https://klein.blue/post/8.html</link><description>&lt;!-- ##{'timestamp':1680449400}## --&gt;
+
+今天把之前装修拆出来的铝合金门框、废铁门和存了两三年的大部分纸箱卖掉
+
+竟然收获了1398元！！！WOW！
+
+![Image](https://github.</description><guid isPermaLink="true">https://klein.blue/post/8.html</guid><pubDate>Sun, 02 Apr 2023 15:30:00 +0000</pubDate></item><item><title>干冰迟钝结冰人</title><link>https://klein.blue/post/7.html</link><description>&lt;!-- ##{'timestamp':1680432600}## --&gt;
 
 今天做了个有点奇怪的梦，也不能说是噩梦，就是哪里怪怪的
 
