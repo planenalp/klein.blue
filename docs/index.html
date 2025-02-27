@@ -61,13 +61,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://klein.blue/about.html" class="btn btn-invisible circle" title="About">
-        <svg class="octicon" width="16" height="16" >
-            <path id="About" fill-rule="evenodd"></path>
-        </svg>
-    </a><a href="https://klein.blue/link.html" class="btn btn-invisible circle" title="Link">
+    <a href="https://klein.blue/link.html" class="btn btn-invisible circle" title="Link">
         <svg class="octicon" width="16" height="16" >
             <path id="Link" fill-rule="evenodd"></path>
+        </svg>
+    </a><a href="https://klein.blue/about.html" class="btn btn-invisible circle" title="About">
+        <svg class="octicon" width="16" height="16" >
+            <path id="About" fill-rule="evenodd"></path>
         </svg>
     </a>
     <a href="https://klein.blue/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
@@ -85,7 +85,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div style="margin-bottom: 16px;">give you some color to see see</div>
 <nav class="SideNav border">
-
+<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/3.html">
+    <div class="d-flex flex-items-center">
+        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        </svg>
+        <span class="listTitle">Hello, World!</span>
+    </div>
+    <div class="listLabels">
+        
+        <span class="Label LabelName" style="background-color:#aaaaaa"><object><a style="color:#fff" href="tag.html#thoughts">thoughts</a></object></span>
+        <span class="Label LabelTime" style="background-color:#A333D0">2023-03-29</span>
+    </div>
+</a>
 </nav>
 </div>
     <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://klein.blue">Klein.Blue</a></div>
@@ -127,7 +138,7 @@ for(var i=0;i<iconPost.length;i++){
 
 
 
-document.getElementById("About").setAttribute("d",value=IconList["about"]);document.getElementById("Link").setAttribute("d",value=IconList["link"]);
+document.getElementById("Link").setAttribute("d",value=IconList["link"]);document.getElementById("About").setAttribute("d",value=IconList["about"]);
 </script>
 
 
