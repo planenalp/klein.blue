@@ -1,3 +1,4 @@
+
 /* header布局 */
 #header {
     height: 250px;
@@ -14,11 +15,9 @@
     align-items: center;
 }
 
-/* avatar尺寸 */
+/* avatar关闭 */
 .avatar {
-    width: 120px;
-    height: 120px;
-    margin-top: 20px; /* 用百分比会崩 */
+    display: none;
 }
 
 #header h1 a {
@@ -26,7 +25,6 @@
     margin-top: 10px; /* 用百分比会崩 */
     font-family: sans-serif;
 }
-
 
 .title-right {
     margin: unset; /* 重置原参数 */
