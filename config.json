@@ -9,11 +9,11 @@
     "filingNum":"<a href='https://icp.gov.moe/?keyword=20259061' target='_blank'>萌ICP备20259061号</a>",
     "singlePage":["link","about"],
     "i18n":"EN",
-    "themeMode":"fix",
+    "themeMode":"manual",
     "dayTheme":"dark",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
     "script":"<script src='https://klein.blue/assets/GmeekTOC.js'></script><script src='https://klein.blue/assets/lightbox.js'></script><script src='https://klein.blue/assets/pagination.js'></script>",
-    "indexStyle": "<link href='https://klein.blue/assets/pl-blog.css' rel='stylesheet' />",
+    "indexStyle": "<link href='https://klein.blue/assets/pl-blog.css' rel='stylesheet' /><style>\n.avatar {display: none}\n</style>",
     "showPostSource":0
 }
