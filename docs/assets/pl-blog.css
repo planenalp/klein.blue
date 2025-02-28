@@ -11,7 +11,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
+    
 /* avatar尺寸 */
 .avatar {
     width: 150px;
