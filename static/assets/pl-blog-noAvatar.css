@@ -1,0 +1,35 @@
+
+/* header布局 */
+#header {
+    height: 120px;
+    position: relative; /* 父元素 #header 设置定位 */
+    background-color: #002FA7;
+}
+
+#header h1 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* avatar关闭 */
+.avatar {
+    display: none;
+}
+
+#header h1 a {
+    margin-left: unset; /* 重置原参数8px为0 */
+    margin-top: 20px; /* 用百分比会崩 */
+    font-family: sans-serif;
+}
+
+.title-right {
+    margin: unset; /* 重置原参数 */
+    margin-top: 70px; /* 用百分比会崩 */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
