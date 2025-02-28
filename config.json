@@ -14,6 +14,6 @@
     "nightTheme":"dark-blue",
     "urlMode":"issue",
     "script":"<script src='https://klein.blue/assets/GmeekTOC.js'></script><script src='https://klein.blue/assets/lightbox.js'></script><script src='https://klein.blue/assets/pagination.js'></script>",
-    "indexStyle": "<link href='https://klein.blue/assets/pl-blog-noAvatar.css' rel='stylesheet' />",
+    "indexStyle": "<link href='https://klein.blue/assets/klein.blue.css' rel='stylesheet' />",
     "showPostSource":0
 }
