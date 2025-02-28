@@ -28,6 +28,11 @@
     font-family: sans-serif;
 }
 
+/* 没这段的话屏幕太窄标题会丢失 */
+.blogTitle {
+    display: unset;
+}
+
 .title-right {
     margin: unset; /* 重置原参数 */
     margin-top: 200px; /* 用百分比会崩 */
