@@ -26,6 +26,10 @@
     font-family: sans-serif;
 }
 
+.blogTitle {
+    display: unset;
+}
+
 .title-right {
     margin: unset; /* 重置原参数 */
     margin-top: 70px; /* 用百分比会崩 */
