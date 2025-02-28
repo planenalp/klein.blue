@@ -40,8 +40,4 @@
     position: absolute;
 }
 
-/* 居中副标题 */
-element.style {
-    display: flex;
-    justify-content: center;
-}
+
