@@ -28,9 +28,8 @@
     font-family: sans-serif;
 }
 
-/* 没这段的话屏幕太窄标题会丢失 */
 .blogTitle {
-    display: unset;
+    display: unset; /* 重置属性取消默认屏幕过窄自动隐藏标题 */
 }
 
 .title-right {
