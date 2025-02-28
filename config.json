@@ -15,5 +15,6 @@
     "urlMode":"issue",
     "script":"<script src='https://klein.blue/assets/GmeekTOC.js'></script><script src='https://klein.blue/assets/lightbox.js'></script><script src='https://klein.blue/assets/pagination.js'></script>",
     "indexStyle": "<style>#header{background-color: #002FA7;}</style>",
+    "style": "<style>#header{background-color: #002FA7;}</style>",
     "showPostSource":0
 }
