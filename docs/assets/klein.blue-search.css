@@ -5,11 +5,11 @@
 }
 
 /* 顶栏字体缩进10px */
-.postTitle {
+.tagTitle {
     margin-left: 10px;
 }
 
-/* 文章字体缩进10px */
-#postBody {
-    margin: 10px;
+/* 搜索布局 */
+.subnav-search {
+    width: 230px;
 }
