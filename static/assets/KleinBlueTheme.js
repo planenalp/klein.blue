@@ -9,16 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
 
-        /* 背景图 */
-        html {    
-                background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
-                background-size: cover;
-        }
-
         /* header布局 */
         #header {
-            height: 230px;
+            height: 250px;
             position: relative; /* 父元素 #header 设置定位 */
+            background-color: #002FA7;
         }
 
         #header h1 {
@@ -34,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .avatar {
             width: 120px;
             height: 120px;
+            margin-top: 20px; /* 用百分比会崩 */
         }
 
         #header h1 a {
@@ -53,44 +49,10 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 180px; /* 用百分比会崩 */
+            margin-top: 200px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
-        }
-
-        /* 主体布局 */
-        body {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度50% */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-        }
-
-        /* 主页博客列表透明边框 */
-        .SideNav {
-            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
-            min-width: unset;
-        }
-
-        /* 鼠标放到博客标题后会高亮 */
-        .SideNav-item:hover {
-            background-color: #81D8D0; /* 高亮颜色 */
-            transform: scale(1.05);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
-        }
-
-        /* 弹起动画时长 */
-        .SideNav-item {
-            transition: 0.1s;
-        }
-
-        /* 分页条 */
-        .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus, .pagination em:hover, .pagination em:focus {
-            border-color: rebeccapurple;
-        }
-
-        /* 右上角按钮触碰颜色 */
-        div.title-right .btn:hover {
-            background-color: #81D8D0;
         }
 
         `;
@@ -106,21 +68,19 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
 
-        /* 背景图 */
-        html {    
-            background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
-            background-size: cover;
+        /* 顶栏改色 */
+        #header {
+            background-color: #002FA7;
         }
 
-        /* 主体布局 */
-        body {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+        /* 顶栏字体缩进10px */
+        .postTitle {
+            margin-left: 10px;
         }
 
-        /* 右上角按钮触碰颜色 */
-        div.title-right .btn:hover {
-            background-color: #81D8D0;
+        /* 文章字体缩进10px */
+        #postBody {
+            margin: 10px;
         }
 
         `;
@@ -135,44 +95,19 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
         
-        /* 背景图 */
-        html {    
-            background: url('https://godpan.com/bg.webp') no-repeat center center fixed;
-            background-size: cover;
+        /* 顶栏改色 */
+        #header {
+            background-color: #002FA7;
         }
 
-        /* 主体布局 */
-        body {
-            background: rgba(255, 255, 255, 0.7); /* 白色背景，透明度70% */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-        }
-
-        /* 列表透明边框 */
-        .SideNav {
-            background: rgba(255, 255, 255, 0.8); /* 白色背景，透明度80% */
-            min-width: unset;
-        }
-
-        /* 鼠标放到博客标题后会高亮 */
-        .SideNav-item:hover {
-            background-color: #81D8D0; /* 高亮颜色 */
-            transform: scale(1.05);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 阴影 */
-        }
-
-        /* 弹起动画时长 */
-        .SideNav-item {
-            transition: 0.1s;
+        /* 顶栏字体缩进10px */
+        .tagTitle {
+            margin-left: 10px;
         }
         
         /* 搜索布局 */
         .subnav-search {
             width: 230px; 
-        }
-
-        /* 右上角按钮触碰颜色 */
-        div.title-right .btn:hover {
-            background-color: #81D8D0;
         }
         
         `;
