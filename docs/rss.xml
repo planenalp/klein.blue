@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Mon, 03 Mar 2025 11:49:29 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/12.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Mon, 03 Mar 2025 12:03:29 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/12.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
 
 去年忘记什么时候突然访问不了了
 
@@ -15,23 +15,14 @@
 
 ===========================
 2025/02/28 更新
-这几天转到 GitHub Pages 咯，好玩~.</description><guid isPermaLink="true">https://klein.blue/post/12.html</guid><pubDate>Mon, 10 Feb 2025 19:16:00 +0000</pubDate></item><item><title>重见天日</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
+这几天转到 GitHub Pages 咯，好玩~.</description><guid isPermaLink="true">https://klein.blue/post/12.html</guid><pubDate>Mon, 10 Feb 2025 19:16:00 +0000</pubDate></item><item><title>Google Blogger 修改顶栏颜色替代图片</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1715460960}## --&gt;
 
-去年忘记什么时候突然访问不了了
+==================================================
+## //废话
 
-可以猜到是 Cloudflare 的某些更新导致设置问题
-
-一直没法打开感觉很郁闷但是又没找到修复的办法
-
-今天折腾了下好了，开心
-
-其实就是个 SSL/TLS: Flexible 的区别
-
-顺便向老婆炫耀了一下嘿嘿
-
-===========================
-2025/02/28 更新
-这几天转到 GitHub Pages 咯，好玩~.</description><guid isPermaLink="true">https://klein.blue/post/11.html</guid><pubDate>Mon, 10 Feb 2025 19:16:00 +0000</pubDate></item><item><title>浑浑噩噩又1年</title><link>https://klein.blue/post/10.html</link><description>&lt;!-- ##{'timestamp':1714800000}## --&gt;
+原视频教程出处
+Live Blogger - 《How To Customize BG Image In Blogger Contempo Theme | Theme Editor》
+[https://www.</description><guid isPermaLink="true">https://klein.blue/post/11.html</guid><pubDate>Sat, 11 May 2024 20:56:00 +0000</pubDate></item><item><title>浑浑噩噩又1年</title><link>https://klein.blue/post/10.html</link><description>&lt;!-- ##{'timestamp':1714800000}## --&gt;
 
 去年开始做的视频号一做起来马上就有超级多的内容想要发，但是又怕一下子发太多全部发完了，于是故意强迫自己暂停一下缓缓脚步，结果一停就停到了现在哈哈，自从最后一期电烙铁支架发完没多久获得创作激励资格以来还没另外再发过一期。。尴尬
 
