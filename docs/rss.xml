@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Thu, 27 Feb 2025 19:15:02 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Klein.Blue</title><link>https://klein.blue</link><description>give you some color to see see</description><copyright>Klein.Blue</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://klein.blue/favicon.svg</url><title>avatar</title><link>https://klein.blue</link></image><lastBuildDate>Mon, 03 Mar 2025 11:49:29 +0000</lastBuildDate><managingEditor>Klein.Blue</managingEditor><ttl>60</ttl><webMaster>Klein.Blue</webMaster><item><title>重见天日</title><link>https://klein.blue/post/12.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
+
+去年忘记什么时候突然访问不了了
+
+可以猜到是 Cloudflare 的某些更新导致设置问题
+
+一直没法打开感觉很郁闷但是又没找到修复的办法
+
+今天折腾了下好了，开心
+
+其实就是个 SSL/TLS: Flexible 的区别
+
+顺便向老婆炫耀了一下嘿嘿
+
+===========================
+2025/02/28 更新
+这几天转到 GitHub Pages 咯，好玩~.</description><guid isPermaLink="true">https://klein.blue/post/12.html</guid><pubDate>Mon, 10 Feb 2025 19:16:00 +0000</pubDate></item><item><title>重见天日</title><link>https://klein.blue/post/11.html</link><description>&lt;!-- ##{'timestamp':1739214960}## --&gt;
 
 去年忘记什么时候突然访问不了了
 
