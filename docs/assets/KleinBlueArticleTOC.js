@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
        @media (prefers-color-scheme: dark) {
            :root {
-               --toc-bg: #21262db3;
+               --toc-bg: #21262dcc;
                --toc-border: rgba(240, 246, 252, 0.1);
                --toc-text: #c9d1d9;
                --toc-hover: #002fa7cc;
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         .toc {
             position: fixed;
-            bottom: 60px;
+            bottom: 100px;
             right: 20px;
             width: 250px;
             max-height: 70vh;
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         .toc-icon {
             position: fixed;
-            bottom: 20px;
+            bottom: 60px;
             right: 20px;
             cursor: pointer;
             font-size: 24px;
