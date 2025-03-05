@@ -11,30 +11,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* header布局 */
         #header {
-            height: 250px;
+            height: 120px;
             position: relative; /* 父元素 #header 设置定位 */
-            background-color: #002FA7;
+            background-color: #002FA7B3; /* 70%透明度 */
+            border-bottom: unset;
         }
 
         #header h1 {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            margin-top: 25px;
         }
 
-        /* avatar尺寸 */
         .avatar {
-            width: 120px;
-            height: 120px;
-            margin-top: 20px; /* 用百分比会崩 */
+            display: none;
         }
 
         #header h1 a {
-            margin-left: unset; /* 重置原参数8px为0 */
-            margin-top: 10px; /* 用百分比会崩 */
+            margin-left: unset; /* 无Avatar状态去除左侧间隔保证标题居中 */
             font-family:
                 "PingFang SC",     /* 苹方（macOS/iOS） */
                 "Microsoft YaHei", /* 微软雅黑（Windows） */
@@ -49,10 +44,29 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 200px; /* 用百分比会崩 */
+            margin-top: 70px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
+        }
+        
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .blogTitle{
+                display:unset !important;
+                }
+            #buttonRSS{
+                display:unset !important;
+            }
+            .LabelTime{
+                display:unset !important;
+            }
+            .LabelName{
+                display:none !important;
+            }
         }
 
         `;
@@ -70,7 +84,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* 顶栏改色 */
         #header {
-            background-color: #002FA7;
+            background-color: #002FA7B3; /* 70%透明度 */
+            padding-bottom: unset;
+            border-bottom: unset;
         }
 
         /* 顶栏字体缩进10px */
@@ -81,6 +97,16 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 文章字体缩进10px */
         #postBody {
             margin: 10px;
+        }
+
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .postTitle{
+                font-size:24px !important;
+            }
         }
 
         `;
@@ -97,7 +123,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* 顶栏改色 */
         #header {
-            background-color: #002FA7;
+            background-color: #002FA7B3; /* 70%透明度 */
+            padding-bottom: unset;
+            border-bottom: unset;
         }
 
         /* 顶栏字体缩进10px */
@@ -108,6 +136,23 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 搜索布局 */
         .subnav-search {
             width: 230px; 
+        }
+
+        /* 重新定义 max-width: 768px 参数下的值，原为 600px */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px !important;
+            }
+            .tagTitle {
+                display: unset !important;
+                font-size: 14px !important;
+            }
+            .LabelTime{
+                display:unset !important;
+            }
+            .LabelName{
+                display:none !important;
+            }
         }
         
         `;
