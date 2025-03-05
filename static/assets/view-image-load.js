@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // 加载viewImage.js库
     let viewImage = document.createElement('script');
-    viewImage.src = 'https://planenalp.github.io/assets/view-image-custom.js'; //加载上传的地址
+    viewImage.src = 'https://klein.blue/assets/view-image-custom.js'; //加载上传的地址
     document.body.appendChild(viewImage);
 
     viewImage.onload = function() {
