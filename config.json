@@ -8,7 +8,7 @@
     "faviconUrl":"https://klein.blue/favicon.svg",
     "filingNum":"<a href='https://icp.gov.moe/?keyword=20259061' target='_blank'>萌ICP备20259061号</a>",
     "singlePage":["link","about"],
-    "yearColorList":["#81D8D0", "#008080", "#002FA7", "#082567"],
+    "yearColorList":["#002FA7", "#082567"],
     "i18n":"EN",
     "themeMode":"fix",
     "dayTheme":"dark",
