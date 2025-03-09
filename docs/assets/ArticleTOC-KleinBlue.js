@@ -75,8 +75,8 @@ function toggleTOC() {
         tocIcon.classList.toggle('active');
         //tocIcon.textContent = tocElement.classList.contains('show') ? '✕' : '☰'; //原 ✖ 符号没法自定义颜色iPhone一直显示黑色！改为另一个符号 ✕ 才可以！但是☰也没法居中，还是用SVG算了
         tocIcon.innerHTML = tocElement.classList.contains('show') 
-            ? '<svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>'
-            : '<svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';
+            ? '<svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>' //对应'✕'
+            : '<svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>'; //对应'☰'
     }
 }
 
