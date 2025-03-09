@@ -32,6 +32,9 @@
       background-color: #002fa7b3;
       border-color: #8b949eb3;
     }
+    .back-to-top:active {
+      transform: scale(0.9); /* 按住时缩小 */
+    }
     .back-to-top svg {
       width: 24px;
       height: 24px;
