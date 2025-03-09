@@ -121,7 +121,7 @@
                             max-width: 100%;
                             max-height: 100%;
                             object-fit: contain;
-                            border-radius: 3px;
+                            border-radius: 6px;
                         }
                         .view-image-lead__in img {
                             animation: view-image-lead-in 300ms;
@@ -184,7 +184,7 @@
                             /* backdrop-filter: blur(5px); */
                             margin: 0 auto;
                             padding: 5px;
-                            border-radius: 5px;
+                            border-radius: 6px;
                             /* background: rgba(0, 0, 0, 0.1); */
                             background-color: #21262dcc;
                             border: 1px solid rgba(240, 246, 252, 0.1);
