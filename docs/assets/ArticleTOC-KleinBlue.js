@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
             opacity: 0;
             visibility: hidden;
             transform: translateY(20px) scale(0.9);
-            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+            transition: opacity 0.1s ease, transform 0.1s ease, visibility 0.1s;
         }
         .toc.show {
             opacity: 1;
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
             font-size: 14px;
             line-height: 1.5;
             border-bottom: 1px solid var(--toc-border);
-            transition: background-color 0.2s ease, padding-left 0.2s ease;
+            transition: background-color 0.1s ease, padding-left 0.1s ease;
         }
         .toc a:last-child {
             border-bottom: none;
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: center;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12);
             z-index: 1001;
-            transition: all 0.3s ease;
+            transition: all 0.1s ease;
             user-select: none;
             -webkit-tap-highlight-color: transparent;
             outline: none;

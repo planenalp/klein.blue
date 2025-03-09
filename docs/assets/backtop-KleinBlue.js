@@ -19,7 +19,7 @@
       justify-content: center;
       box-shadow: 0 1px 3px rgba(0,0,0,0.12);
       z-index: 10000;
-      transition: all 0.1s ease;
+      transition: transform 0.1s ease, opacity 0.1s ease;
       user-select: none;
       -webkit-tap-highlight-color: transparent;
       outline: none;
