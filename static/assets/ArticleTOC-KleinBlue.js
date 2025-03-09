@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
             max-height: 70vh;
             background-color: var(--toc-bg);
             border: 1px solid var(--toc-border);
-            border-radius: 8px;
+            border-radius: 5px;
             padding: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             overflow-y: auto;
