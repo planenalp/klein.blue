@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
             max-height: 70vh;
             background-color: var(--toc-bg);
             border: 1px solid var(--toc-border);
-            border-radius: 8px;
+            border-radius: 5px;
             padding: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             overflow-y: auto;
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         .toc a {
             display: block;
-            border-radius: 8px;
+            border-radius: 5px;
             color: var(--toc-text);
             text-decoration: none;
             padding: 5px 0;
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function() {
         .toc a:hover {
             background-color: var(--toc-hover);
             padding-left: 5px;
-            border-radius: 8px;
+            border-radius: 5px;
         }
         .toc-icon {
             position: fixed;
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function() {
             visibility: hidden;
             background-color: var(--toc-hover);      /* 自定义按钮颜色 */
             padding: 10px;                            /* 可选：增加一些内边距，使按钮更易点击 */
-            border-radius: 8px;                       /* 可选：使按钮有圆角 */
+            border-radius: 5px;                       /* 可选：使按钮有圆角 */
             border: 1px solid var(--toc-border);      /* 可选：增加边框，使其更明显 */
         }
         */
@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function() {
         /* 弹出菜单文字参数 */
         .active-toc {
             /* font-weight: bold;  移除加粗 */
-            border-radius: 8px;
+            border-radius: 5px;
             background-color: var(--toc-hover);  /* 根据你的设计，可以定制高亮颜色 */
             padding-left: 5px;  /* 可选：增加左边距以突出当前项目 */
         }
