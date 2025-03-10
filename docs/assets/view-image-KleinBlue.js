@@ -197,7 +197,7 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            color: rgba(240, 246, 252, 0.1);
+                            color: #8b949eb3;
                         }
                         .view-image-tools__flip {
                             display: flex;
