@@ -31,10 +31,10 @@
             visibility: hidden;
         }
         .back-to-top {
-            bottom: 180px;
+            bottom: 190px;
         }
         .back-to-bot {
-            bottom: 60px;
+            bottom: 70px;
         }
         .back-to-top.show, .back-to-bot.show {
             opacity: 1;
