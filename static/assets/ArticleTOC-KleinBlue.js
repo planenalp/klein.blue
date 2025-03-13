@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         .toc {
             position: fixed;
-            bottom: 140px;
+            bottom: 150px;
             right: 60px;
             width: 250px;
             max-height: 70vh;
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         .toc-icon {
             position: fixed;
-            bottom: 120px;
+            bottom: 130px;
             right: 20px;
             cursor: pointer;
             font-size: 24px;
