@@ -77,7 +77,7 @@
 
         .toc {
             position: fixed;
-            bottom: 140px;
+            bottom: 150px;
             right: 60px;
             z-index: 1000;
             width: 250px;
@@ -119,7 +119,7 @@
         }
         .toc-icon {
             position: fixed;
-            bottom: 120px;
+            bottom: 130px;
             right: 20px;
             z-index: 1001;
             display: flex;
@@ -194,10 +194,10 @@
             visibility: hidden;
         }
         .back-to-top {
-            bottom: 180px;
+            bottom: 190px;
         }
         .back-to-bot {
-            bottom: 60px;
+            bottom: 70px;
         }
         .back-to-top.show, .back-to-bot.show {
             opacity: 1;
