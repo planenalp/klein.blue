@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function() {
        }
 
        /* 移动端缩窄一丢丢 */
-       @media (max-width: 1249px) {
+       @media (max-width: 768px) {
            .toc {
                width: 200px;
            }
