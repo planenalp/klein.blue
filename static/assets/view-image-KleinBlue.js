@@ -178,7 +178,7 @@
                             color: #fff;
                             max-width: 300px;
                             position: fixed;
-                            bottom: 10px;
+                            bottom: 20px;
                             left: 1rem;
                             right: 1rem;
                             /* backdrop-filter: blur(5px); */
