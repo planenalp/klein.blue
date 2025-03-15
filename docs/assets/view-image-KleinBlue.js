@@ -33,6 +33,24 @@
           const $el = new DOMParser().parseFromString(`
 <div class="view-image">
   <style>
+    :root {
+        --img-bg: rgba(255, 255, 255, 0.8);
+        --img-border: #e1e4e8;
+        --img-icon-bg: #FFFFFFB3;
+        --img-icon-color: #656d76b3;
+        --img-icon-active-bg: #81D8D0B3;
+        --img-icon-active-color: #FFFFFFB3;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --img-bg: #21262dcc;
+            --img-border: rgba(240, 246, 252, 0.1);
+            --img-icon-bg: #21262db3;
+            --img-icon-color: rgba(240, 246, 252, 0.1);
+            --img-icon-active-bg: #002fa7b3;
+            --img-icon-active-color: #8b949eb3;
+        }
+    }
     .view-image {
         position: fixed;
         inset: 0;
@@ -61,16 +79,16 @@
         align-items: center;
         cursor: pointer;
         border-radius: 50%;
-        color: rgba(240, 246, 252, 0.1);
-        background-color: #21262db3;
-        border: 2px solid rgba(240, 246, 252, 0.1);
+        color: var(--img-icon-color);
+        background-color: var(--img-icon-bg);
+        border: 2px solid var(--img-icon-color);
         transition: transform 0.1s ease, opacity 0.1s ease;
     }
     .view-image-btn:hover {
+        border-color: var(--img-icon-active-color);
+        background-color: var(--img-icon-active-bg);
+        color: var(--img-icon-active-color);
         transform: scale(1.1);
-        color: #8b949eb3;
-        background-color: #002fa7b3;
-        border-color: #8b949eb3;
     }
     .view-image-btn:active {
         transform: scale(0.9);
@@ -169,8 +187,8 @@
         width: min(100%, 300px); /* 宽度最多 300px，但不会超出屏幕 */
         padding: 5px;
         border-radius: 6px;
-        background-color: #21262dcc;
-        border: 1px solid rgba(240, 246, 252, 0.1);
+        background-color: var(--img-bg);
+        border: 1px solid var(--img-border);
         margin-bottom: env(safe-area-inset-bottom);
         z-index: 1;
     }
@@ -179,7 +197,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #8b949eb3;
+        color: var(--img-icon-color);
     }
     .view-image-tools__flip {
         display: flex;
