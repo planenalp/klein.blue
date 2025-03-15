@@ -185,6 +185,9 @@
         display: flex;
         gap: 10px;
     }
+    .view-image-tools [class*="-close"] {
+        margin: 0 14px;
+    }
   </style>
   <div class="view-image-container">
       <div class="view-image-lead"></div>
