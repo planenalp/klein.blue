@@ -8,18 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('应用主页主题');
         let style = document.createElement("style");
         style.innerHTML = `
-
-        /* 主体布局 */
-        body {
-            background-color: #002FA7B3;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 添加阴影 */
-        }
         
         /* header布局 */
         #header {
-            height: 50px;
+            height: 95px;
             position: relative; /* 父元素 #header 设置定位 */
-            //background-color: #002FA7B3; /* 70%透明度 */
+            background-color: #002FA7B3; /* 70%透明度 */
             border-bottom: unset;
             margin-bottom: unset;
         }
@@ -28,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
+            margin-top: 45px;
         }
 
         .avatar {
@@ -50,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 75px; /* 用百分比会崩 */
+            margin-top: 120px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
@@ -60,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
         #content > div {
             margin-bottom: unset !important;
             text-align: center;  /* 子元素（副标题）水平居中 */
-            //background-color: #002FA7B3;
+            background-color: #002FA7B3;
             height: 75px;
         }
         
