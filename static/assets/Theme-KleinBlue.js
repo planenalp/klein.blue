@@ -11,10 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* header布局 */
         #header {
-            height: 120px;
+            height: 80px;
             position: relative; /* 父元素 #header 设置定位 */
             background-color: #002FA7B3; /* 70%透明度 */
             border-bottom: unset;
+            margin-bottom: unset;
         }
 
         #header h1 {
@@ -44,10 +45,18 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 70px; /* 用百分比会崩 */
+            margin-top: 100px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
+        }
+
+        /* 副标题 */
+        #content > div {
+            margin-bottom: unset !important;
+            text-align: center;  /* 子元素（副标题）水平居中 */
+            background-color: #002FA7B3;
+            height: 70px;
         }
         
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
@@ -89,14 +98,14 @@ document.addEventListener('DOMContentLoaded', function() {
             border-bottom: unset;
         }
 
-        /* 顶栏字体缩进10px */
+        /* 顶栏字体缩进5px */
         .postTitle {
-            margin-left: 10px;
+            margin-left: 5px;
         }
 
-        /* 文章字体缩进10px */
+        /* 文章字体缩进5px */
         #postBody {
-            margin: 10px;
+            margin: 5px;
         }
 
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
@@ -128,9 +137,9 @@ document.addEventListener('DOMContentLoaded', function() {
             border-bottom: unset;
         }
 
-        /* 顶栏字体缩进10px */
+        /* 顶栏字体缩进5px */
         .tagTitle {
-            margin-left: 10px;
+            margin-left: 5px;
         }
         
         /* 搜索布局 */
