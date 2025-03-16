@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         /* header布局 */
         #header {
-            height: 95px;
+            height: 175px;
             position: relative; /* 父元素 #header 设置定位 */
             background-color: #002FA7B3; /* 70%透明度 */
             border-bottom: unset;
@@ -22,11 +22,29 @@ document.addEventListener('DOMContentLoaded', function() {
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            margin-top: 45px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
+        /* avatar尺寸 */
         .avatar {
-            display: none;
+            width: 100px;
+            height: 100px;
+            transition: 0.1s;
+            object-fit: unset;
+            background-color: transparent;
+            border-radius: unset !important; /* 强制清除圆形框设置 */
+            box-shadow: none;
+        }
+
+        .avatar:hover {
+            transform: scale(1.1) !important;
+        }
+
+        .avatar:active {
+            transform: scale(0.9) !important;
         }
 
         #header h1 a {
@@ -45,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 120px; /* 用百分比会崩 */
+            margin-top: 200px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
