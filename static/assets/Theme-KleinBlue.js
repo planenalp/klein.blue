@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         /* header布局 */
         #header {
-            height: 80px;
+            height: 85px;
             position: relative; /* 父元素 #header 设置定位 */
             background-color: #002FA7B3; /* 70%透明度 */
             border-bottom: unset;
@@ -45,18 +45,18 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 自定义按钮 */
         .title-right {
             margin: unset; /* 重置原参数 */
-            margin-top: 100px; /* 用百分比会崩 */
+            margin-top: 110px; /* 用百分比会崩 */
             margin-left: 50%;
             transform: translateX(-50%);
             position: absolute;
         }
 
-        /* 副标题 */
+        /* 副标题居中+移位 */
         #content > div {
             margin-bottom: unset !important;
             text-align: center;  /* 子元素（副标题）水平居中 */
             background-color: #002FA7B3;
-            height: 70px;
+            height: 75px;
         }
         
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
