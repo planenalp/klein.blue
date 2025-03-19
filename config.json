@@ -15,7 +15,7 @@
     "dayTheme":"dark",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
-    "script":"<script src='https://klein.blue/assets/AriticleTocTopBot-KleinBlue.js'></script><script src='https://klein.blue/assets/view-image-KleinBlue.js'></script>",
+    "script":"<script src='https://klein.blue/assets/fancybox.umd.js'></script><script src='https://klein.blue/assets/fancyboxLoad-KleinBlue'></script><script src='https://klein.blue/assets/AriticleTocTopBot-KleinBlue'></script>",
     "allHead":"<script src='https://klein.blue/assets/Theme-KleinBlue.js'></script>",
     "indexScript":"<script src='https://klein.blue/assets/NumPagination-KleinBlue.js'></script>",
     "showPostSource":0
