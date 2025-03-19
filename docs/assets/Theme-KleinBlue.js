@@ -1,3 +1,6 @@
+//允许移动端实现图标按压特效
+document.addEventListener('touchstart', function() {}, false);
+
 document.addEventListener('DOMContentLoaded', function() {    
     let currentUrl = window.location.pathname;
     //let currentHost = window.location.hostname;
@@ -9,11 +12,27 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
         
+        /* 默认亮主题配色 */
+        :root {
+            --header-bgColor: #002FA7;
+            --blogTitle-color: #FFFFFF;
+            --subTitle-color: #FFFFFF;
+        }
+        /* 暗主题配色 */
+        [data-color-mode=light][data-light-theme=dark],
+        [data-color-mode=light][data-light-theme=dark]::selection,
+        [data-color-mode=dark][data-dark-theme=dark],
+        [data-color-mode=dark][data-dark-theme=dark]::selection {
+            --header-bgColor: #002FA7;
+            --blogTitle-color: #FFFFFF;
+            --subTitle-color: #FFFFFF;
+        }
+        
         /* header布局 */
         #header {
             height: 175px;
             position: relative; /* 父元素 #header 设置定位 */
-            background-color: #002FA7B3; /* 70%透明度 */
+            background-color: var(--header-bgColor);
             border-bottom: unset;
             margin-bottom: unset;
         }
@@ -54,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "Microsoft YaHei", /* 微软雅黑（Windows） */
                 "Noto Sans SC",    /* 思源黑体（Linux/Android） */
                 sans-serif;        /* 最终回退到无衬线字体 */
+            color: var(--blogTitle-color);
         }
 
         .blogTitle {
@@ -73,8 +93,9 @@ document.addEventListener('DOMContentLoaded', function() {
         #content > div {
             margin-bottom: unset !important;
             text-align: center;  /* 子元素（副标题）水平居中 */
-            background-color: #002FA7B3;
+            background-color: var(--header-bgColor);
             height: 75px;
+            color: var(--subTitle-color);
         }
         
         /* 重新定义 max-width: 768px 参数下的值，原为 600px */
@@ -109,9 +130,23 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
 
+        /* 默认亮主题配色 */
+        :root {
+            --header-bgColor: #002FA7;
+            --postTitle-color: #FFFFFF;
+        }
+        /* 暗主题配色 */
+        [data-color-mode=light][data-light-theme=dark],
+        [data-color-mode=light][data-light-theme=dark]::selection,
+        [data-color-mode=dark][data-dark-theme=dark],
+        [data-color-mode=dark][data-dark-theme=dark]::selection {
+            --header-bgColor: #002FA7;
+            --postTitle-color: #FFFFFF;
+        }
+        
         /* 顶栏改色 */
         #header {
-            background-color: #002FA7B3; /* 70%透明度 */
+            background-color: var(--header-bgColor);
             padding-bottom: unset;
             border-bottom: unset;
         }
@@ -119,6 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 顶栏字体缩进5px */
         .postTitle {
             margin-left: 5px;
+            color: var(--postTitle-color);
         }
 
         /* 文章字体缩进5px */
@@ -148,9 +184,23 @@ document.addEventListener('DOMContentLoaded', function() {
         let style = document.createElement("style");
         style.innerHTML = `
         
+        /* 默认亮主题配色 */
+        :root {
+            --header-bgColor: #002FA7;
+            --tagTitle-color: #FFFFFF;
+        }
+        /* 暗主题配色 */
+        [data-color-mode=light][data-light-theme=dark],
+        [data-color-mode=light][data-light-theme=dark]::selection,
+        [data-color-mode=dark][data-dark-theme=dark],
+        [data-color-mode=dark][data-dark-theme=dark]::selection {
+            --header-bgColor: #002FA7;
+            --tagTitle-color: #FFFFFF;
+        }
+        
         /* 顶栏改色 */
         #header {
-            background-color: #002FA7B3; /* 70%透明度 */
+            background-color: var(--header-bgColor);
             padding-bottom: unset;
             border-bottom: unset;
         }
@@ -158,6 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
         /* 顶栏字体缩进5px */
         .tagTitle {
             margin-left: 5px;
+            color: var(--tagTitle-color);
         }
         
         /* 搜索布局 */
