@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
             background-color: var(--toc-icon-bgColor);
             color: var(--toc-icon-color);
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
+            transition: all 0.1s ease;
             cursor: pointer;
             user-select: none;
             -webkit-tap-highlight-color: transparent;
