@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const combinedCss = `
         /* light 主题颜色 */
         :root {
-            --color-toc-a-text: #24292f;
+            --color-toc-a-text: #24292fcc;
             --color-toc-bg: #ffffffcc;
             --color-toc-border: rgba(31, 35, 40, 0.15);
             --color-toc-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
         [data-color-mode=light][data-light-theme=dark]::selection,
         [data-color-mode=dark][data-dark-theme=dark],
         [data-color-mode=dark][data-dark-theme=dark]::selection {
-            --color-toc-a-text: #c9d1d9;
+            --color-toc-a-text: #c9d1d9cc;
             --color-toc-bg: #21262dcc;
             --color-toc-border: rgba(240, 246, 252, 0.1);
             --color-toc-box-shadow: 0 0 transparent;
