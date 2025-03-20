@@ -48,14 +48,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         /* avatar尺寸 */
+        /* 若保留圆形实心旋转 Avatar 效果就仅保留 .avatar 及 width + height 参数，其余参数和 .avatar:hover 和 .avatar:active 删除 */
         .avatar {
             width: 100px;
             height: 100px;
-            transition: 0.1s;
-            object-fit: unset;
-            background-color: transparent;
+            transition: 0.1s !important; /* 强制指定动画时长 */
+            object-fit: unset !important; /* 强制清除自动缩放 */
+            background-color: transparent !important; /* 强制清除背景颜色 */
             border-radius: unset !important; /* 强制清除圆形框设置 */
-            box-shadow: none;
+            box-shadow: none !important; /* 强制清除边框 */
         }
 
         .avatar:hover {
